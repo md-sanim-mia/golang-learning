@@ -19,7 +19,7 @@ func main() {
 		fmt.Println("send email to email", email)
 	}
 }
-
+//////
 // func main() {
 
 	emailChan := make(chan string, 100)
